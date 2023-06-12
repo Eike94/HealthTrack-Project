@@ -1,0 +1,146 @@
+@media screen and (max-width: 2239px) {
+    body{
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    margin-top: -16px;
+    background: rgba(69, 4, 0, 1);
+}
+
+.DivBotoes ul{
+    position: relative;
+    display: flex;
+    list-style-type: none
+}
+
+.DivBotoes ul li{
+    margin: 10px;
+}
+
+/*Button Style*/
+
+.home{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(240, 83, 72, 1);
+    border-color: rgba(240, 83, 72, 1);
+    border-radius: 5px;
+    color: white;
+}
+
+.academy{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(240, 83, 72, 1);
+    border-color: rgba(240, 83, 72, 1);
+    border-radius: 5px;
+    color: white;
+}
+
+.favoritos{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(240, 83, 72, 1);
+    border-color: rgba(240, 83, 72, 1);
+    border-radius: 5px;
+    color: white;
+}
+
+/*CSS do body*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.Exercicios{
+    margin-top: 40px;
+    background: #E94C41;
+    width: 600px;
+    height: 625px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Exercicios h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Exercicios ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: white;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.Exercicios ul li input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 500px;
+    outline: none;
+}
+
+.Dietas{
+    margin-top: 40px;
+    background: white;
+    width: 600px;
+    height: 625px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Dietas h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Dietas ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: black;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.Dietas ul li input{
+    border: none;
+    border-bottom: 1px solid #E94C41;
+    width: 500px;
+    outline: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}

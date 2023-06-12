@@ -1,0 +1,356 @@
+@media only screen and (max-width: 2239px) {
+    body{
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+    }
+
+}
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .q1{
+    background: rgb(250, 47, 47);
+    display: flex;
+    width: 40vw;
+    height: 90vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.hex img{
+    display: flex;
+    width: 7vw;
+    margin: 50px;
+    
+}
+.nome h4{
+    display: flex;
+    margin: 30% -25%;
+    font-size: 25pt;
+    color: white;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+    margin: -4% 10%;
+    padding: 2px;
+    width: 10vh;
+}
+.inf label{
+    display: flex;
+    height: 0vh;  
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.inf input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 7vw;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14pt;
+    color: white;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 45%; 
+    width: 9vw;
+    height: 25vh;
+}
+.check legend{
+    display: flex;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 2px;
+    margin-left: -40%;
+    width: 4vw;
+    height: 3vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+.check input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 10vw;
+    color: white;
+    margin-bottom: -20px;
+    margin-top: -15px;
+    flex-wrap: wrap;
+}
+.check label{
+    width: 9vw;
+    margin-left: 65%;
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    
+}
+.log{
+    display: flex;
+    width: 5vw;
+    height: 8vh;
+}
+.log button{
+    background: none;
+    border: none;
+    pointer-events:stroke;
+    color: white;
+}
+
+
+.q2{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 40vw;
+    height: 90vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-direction: column;
+}
+
+.q2 h5{
+    display: flex;
+    width: 30vw;
+    height: 5vh;
+    padding: 10px 10px;
+    color: #F05348;
+    font-size: 25pt;
+    margin: 0;
+}
+.taxa-m{
+    display: flex;
+    margin: 15px;
+    align-content: flex-start;
+    width: 30vw;
+
+}
+
+.textfild input{
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f0534873;
+    padding: 10px 0px;
+    outline: none;
+    margin: 5px;
+}
+.textfild ::placeholder{
+    color: #f0534873;
+}
+.tmb{
+    display: flex;
+    width: 6vw;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #AE1005;
+    border: none;
+    outline: none;
+}
+.resultado{
+    width: 26vw;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    margin: -40px;
+    margin-left: 100px;
+    color: #f05348;
+}
+
+
+.imc h5{
+    margin:0;
+    display: flex;
+    width: 2vw;
+    height: 5vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    color: #F05348;
+    font-size: 25pt;
+    margin-top: -20px;
+}
+.taxa-imc{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textimc input{
+    width: 90%;
+    align-items: flex-start;
+    height: 10px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f0534873;
+    margin: 10px;
+    padding: 10px 0px;
+    outline: none;
+}
+.textimc ::placeholder{
+    color: #f0534873;
+}
+.btnimc{
+    display: flex;
+    width: 15%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #AE1005;
+    border: none;
+    outline: none;
+}
+.resultado-imc{
+    width: 8vw;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    margin: -35px;
+    margin-left: 80px;
+    color: #f05348;
+
+}
+.estado{
+    width: 15vw;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    color: #f05348;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    margin: 0;
+    padding: 20px;
+
+}
+.tabela1{
+    display: flex;
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #440501;
+}
+.tabela1 span{
+    font-weight: bold;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}

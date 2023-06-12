@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Jost-Light';
+  src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregular';
+  src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregularss';
+  src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Bold';
+  src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Regular';
+  src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+body {
+  background-image: url(../docs/img/background0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*-----------Correção da margem da NavBar----------*/
+body {
+  margin: 0px;
+}
+
+header {
+  margin-top: -16px;
+  background: rgba(69, 4, 0, 1);
+}
+
+/*-----------NavBar----------*/
+.DivBotoes ul {
+  position: relative;
+  display: flex;
+  list-style-type: none
+}
+
+.DivBotoes ul li {
+  margin: 16px;
+}
+
+.DivBotoes ul li a {
+  text-decoration: none;
+}
+
+/*-----------Estilização dos botões da NavBar----------*/
+
+.home {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(240, 83, 72, 1);
+  border-color: rgba(240, 83, 72, 1);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.academy {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(240, 83, 72, 1);
+  border-color: rgba(240, 83, 72, 1);
+  border-radius: 5px;
+  color: white;
+}
+
+.todo1 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(240, 83, 72, 1);
+  border-color: rgba(240, 83, 72, 1);
+  border-radius: 5px;
+  color: white;
+}
+
+.profile {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(240, 83, 72, 1);
+  border-color: rgba(240, 83, 72, 1);
+  border-radius: 5px;
+  color: white;
+}
+
+/*-----------Estilização do corpo da Pagina----------*/
+
+.container 
+{
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+.todo 
+{
+  width: 100%;
+  max-width: 540px;
+  background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 20px;
+  box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.todo h2 
+{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 125px;
+}
+.todo h2 img 
+{
+  width: 30px;
+  margin-left: 10px;
+}
+.row 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+input 
+{
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+main button 
+{
+  font-family: Monda-Regular, sans-serif;
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: linear-gradient(164.22deg, #F05348 10%, #860900 69%);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+main ul li 
+{
+  color: #fff;
+  list-style: none;
+  font-size: 17px;
+  padding: 20px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+main ul li::before 
+{
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(../docs/img/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+main ul li.checked 
+{
+  color: #555;
+  text-decoration: line-through;
+}
+main ul li.checked::before 
+{
+  background-image: url(../docs/img/checked.png)
+}
+main ul li span 
+{
+  position:absolute;
+  padding: 7px;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color:#555;
+  line-height: center;
+  text-align: center;
+  border-radius: 50%;
+}
+main ul li span:hover
+{
+  background: #edeef0;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #000000;
+}

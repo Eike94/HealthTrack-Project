@@ -1,0 +1,314 @@
+/*INCLUSÃO DAS FONTES*/
+@font-face {
+    font-family: 'Jost-Light';
+    src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jostregular';
+    src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jostregularss';
+    src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Bold';
+    src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Regular';
+    src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+
+@media screen and (min-width: 1900px) {
+
+    /*ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN*/
+    body {
+        background-image: url('../docs/img/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*FORMULARIO DE LOGIN*/
+    .Container {
+        display: flexbox;
+        background: white;
+        height: 600px;
+        width: 850px;
+        margin: 11% auto;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .Container .Layout {
+
+        background: linear-gradient(164.22deg, #f05348 10%, #ae1005 69%);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 350px;
+        height: 100%;
+    }
+
+    .Logo-Pagina {
+        margin-top: 5%;
+        margin-left: 6%;
+        position: absolute;
+    }
+
+    .Titulo-Text {
+        margin-top: 25%;
+        margin-left: 6%;
+        width: 175px;
+        position: absolute;
+    }
+
+    .Titulo-Text .Pagina {
+        font-size: 400%;
+        color: white;
+        margin-top: 35%;
+        position: absolute;
+    }
+
+    .Titulo-Text .Pagina .Sublinhado {
+        color: white;
+        text-decoration: underline;
+    }
+
+    #msgErro {
+        text-align: center;
+        color: #FF0000;
+        background-color: #FFBBBB;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: -70px;
+        margin-bottom: 25px;
+        display: none;
+    }
+
+    .Formulario {
+        margin-top: 20%;
+        margin-left: 50%;
+        position: absolute;
+        font-family: Monda-Regular;
+        color: #FF5454;
+    }
+
+    .Titulo-Usuarios {
+        margin-bottom: 5%;
+    }
+
+    .Titulo-Senha {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .usuario {
+        width: 350px;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid #FF5454;
+    }
+
+    .senha {
+        width: 350px;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid #FF5454;
+    }
+
+    .Button-Entrar {
+        margin-top: 50%;
+        margin-left: 425px;
+        position: absolute;
+    }
+
+    .Button-Cadastro {
+        margin-top: 50%;
+        margin-left: 685px;
+        position: absolute;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+
+    /*ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN*/
+    body {
+        background-image: url('../docs/img/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*FORMULARIO DE LOGIN*/
+    .Container {
+        display: flexbox;
+        background: white;
+        height: 600px;
+        width: 850px;
+        margin: 11% auto;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .Container .Layout {
+
+        background: linear-gradient(164.22deg, #f05348 10%, #ae1005 69%);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 350px;
+        height: 100%;
+    }
+
+    .Logo-Pagina {
+        margin-top: 5%;
+        margin-left: 6%;
+        position: absolute;
+    }
+
+    .Titulo-Text {
+        margin-top: 25%;
+        margin-left: 6%;
+        width: 175px;
+        position: absolute;
+    }
+
+    .Titulo-Text .Pagina {
+        font-size: 400%;
+        color: white;
+        margin-top: 35%;
+        position: absolute;
+    }
+
+    .Titulo-Text .Pagina .Sublinhado {
+        color: white;
+        text-decoration: underline;
+    }
+
+    #msgErro {
+        text-align: center;
+        color: #FF0000;
+        background-color: #FFBBBB;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: -70px;
+        margin-bottom: 25px;
+        display: none;
+    }
+
+    .Formulario {
+        margin-top: 20%;
+        margin-left: 50%;
+        position: absolute;
+        font-family: Monda-Regular;
+        color: #FF5454;
+    }
+
+    .Titulo-Usuarios {
+        margin-bottom: 5%;
+    }
+
+    .Titulo-Senha {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .usuario {
+        width: 350px;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid #FF5454;
+    }
+
+    .senha {
+        width: 350px;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid #FF5454;
+    }
+
+    .Button-Entrar {
+        margin-top: 50%;
+        margin-left: 425px;
+        position: absolute;
+    }
+
+    .Button-Cadastro {
+        margin-top: 50%;
+        margin-left: 685px;
+        position: absolute;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+@media screen and (max-width: 1200px){
+    /*ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN*/
+    body {
+        background-image: url('../docs/img/background-menor.png');
+        background-repeat: repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*FORMULARIO DE LOGIN*/
+    .Container {
+        display: flexbox;
+        background: white;
+        height: 600px;
+        width: 850px;
+        margin: 50% auto;
+        position: relative;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 992px){
+    /*ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN*/
+    body {
+        background-image: url('../docs/img/background-menor.png');
+        background-repeat: repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*FORMULARIO DE LOGIN*/
+    .Container {
+        display: flexbox;
+        background: white;
+        height: 600px;
+        width: 850px;
+        margin: 60% auto;
+        position: relative;
+        border-radius: 10px;
+    }
+}

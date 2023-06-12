@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="LoginStyles.css">
+    <link rel="shortcut icon" href="../docs/img/healthtrack.ico" type="image/x-icon">
+    <title>Bem Vindo ao HealthTrack</title>
+</head>
+<!--AUTHOR-->
+    <meta name="author" content="Márcio Emanuel">
+    <!--cORPO DO PROJETO-->
+    <body>
+        <!--CONTAINER DO DESIGNER DA TELA DE LOGIN-->
+        <main class="Container">
+            <!--DIV DO LAYOUT INICIAL-->
+            <div class="Layout">
+                <!--LOGO DA PAGINA-->
+                <div class="Logo-Pagina">
+                    <img src="../docs/img/logo-para-login-e-cadastro.png">
+                </div>
+                <!--NOME ESTILIZADO "LOGIN"-->
+                <div class="Titulo-Text">
+                    <h1 class="Pagina"><span class="Sublinhado">Lo</span>gin</h1>
+                </div>
+                <!--FORMULARIO DO CADASTRO "EMAIL E SENHA"-->
+                <div class="Formulario">
+                    <form name="Login" action="home.html" method="post">
+                        <div id="titUsuario" class="Titulo-Usuario">
+                            <div id="msgErro"></div>
+                            <div id="msgSuccess"></div>
+                            <h2>Usuario</h2>
+                        </div>
+                        <form>
+                            <input id="userInput" class="usuario" type="user" name="Usuario" placeholder="Usuario">
+                        </form>
+                        <div id="titSenha" class="Titulo-Senha">
+                            <h2>Senha</h2>
+                        </div>
+                        <form>
+                            <input id="senhaInput" class="senha" type="password" placeholder="Senha">
+                        </form>
+                    </form>
+                </div>
+                <!--BOTÕES DE ENTRAR E CARASTRO-->
+                <div class="Button-Entrar">
+                    <button type="button" class="btn btn-danger" onclick="entrar()">Entrar</button>
+                </div>
+                <div class="Button-Cadastro">
+                    <button type="button" class="btn btn-danger"><a href="cadastro.html">Cadastro</a></button>
+                </div>
+                </div>
+            </div>
+        </main>
+
+        <!--BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!--BOOTSTRAP-->
+        <script src="./LoginScript.js"></script>
+    </body>
+</html>

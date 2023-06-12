@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="../docs/img/healthtrack.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>to-do</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="DivBotoes">
+            <ul class="cabeçalho">
+                <li><button class="home"><a href="./homepage.html">Home</a></button></li>
+                <li><button class="academy"><a href="./academy.html">Academy</a></button></li>
+                <li><button class="todo1"><a href="./todo.html">To-do</a></button></li>
+                <li><button class="profile"><a href="./profile.html">Perfil</a></button></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="todo">
+                <h2 id="tdh2">Lista De A fazeres<img src="../docs/img/healthtrack.ico"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Adicione um a fazer">
+                    <button class="addBtn" onclick="addTask()">+</button>
+                </div>
+                <ul id="list-container">
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="./todo.js"></script>
+</body>
+
+</html>

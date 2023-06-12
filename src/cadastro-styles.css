@@ -1,0 +1,306 @@
+/* ----- INCLUSÃO DAS FONTES ----- */
+@font-face {
+    font-family: 'Jost-Light';
+    src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jostregular';
+    src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jostregularss';
+    src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Bold';
+    src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Regular';
+    src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+/* ----- ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN ----- */
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('../docs/img/background-menor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* -----LAYOUT DO FORMULÁRIO ----- */
+.layout {
+    height: 600px;
+    width: 850px;
+    background-color: white;
+    margin: 11% auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.layout .gradiente {
+    background: linear-gradient(164.22deg, #f05348 10%, #ae1005 80%);
+    width: 350px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* TÍTULOS DE FORMULÁRIO*/
+.cadastro-nome .titulo-nome {
+    font-family: 'Monda-Regular';
+    color: #FF5454;
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 45.6%;
+    font-size: 20px;
+}
+
+.cadastro-usuario .titulo-usuario {
+    font-family: 'Monda-Regular';
+    color: #FF5454;
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 45.6%;
+    font-size: 20px;
+}
+
+.cadastro-data .titulo-data {
+    font-family: 'Monda-Regular';
+    color: #FF5454;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 45.6%;
+    font-size: 20px;
+}
+
+.cadastro-senha .titulo-senha {
+    font-family: 'Monda-Regular';
+    color: #FF5454;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 45.6%;
+    font-size: 20px;
+}
+
+/* ----- FORMULÁRIO DE CADASTRO ----- */
+
+/* ----- NOME ----- */
+.cadastro-nome .nome {
+    color: #FF5454;
+    position: absolute;
+    margin-top: -53%;
+    margin-left: 45.6%;
+}
+
+.cadastro-nome .nome input {
+    width: 250%;
+    padding: 5% 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ff545493;
+
+}
+
+.cadastro-nome .nome label {
+    font-family: 'Monda-Regular';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 0;
+    color: #ff545493;
+    pointer-events: none;
+}
+
+.cadastro-nome .nome input:focus~label,
+.cadastro-nome .nome input:valid~label {
+    color: transparent;
+}
+
+/* ----- usuario -----*/
+.cadastro-usuario .usuario {
+    color: #FF5454;
+    position: absolute;
+    margin-top: -43%;
+    margin-left: 45.6%;
+}
+
+.cadastro-usuario .usuario input {
+    width: 250%;
+    padding: 5% 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ff545493;
+
+}
+
+.cadastro-usuario .usuario label {
+    font-family: 'Monda-Regular';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 0;
+    color: #ff545493;
+    pointer-events: none;
+}
+
+.cadastro-usuario .usuario input:focus~label,
+.cadastro-usuario .usuario input:valid~label {
+    color: transparent;
+}
+
+/* ----- DATA -----*/
+.cadastro-data .data {
+    color: #FF5454;
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 45.6%;
+}
+
+.cadastro-data .data input {
+    width: 250%;
+    padding: 5% 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ff545493;
+
+}
+
+.cadastro-data .data label {
+    font-family: 'Monda-Regular';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 0;
+    color: #ff545493;
+    pointer-events: none;
+}
+
+.cadastro-data .data input:focus~label,
+.cadastro-data .data input:valid~label {
+    color: transparent;
+}
+
+/*----- SENHA -----*/
+.cadastro-senha .senha {
+    color: #FF5454;
+    position: absolute;
+    margin-top: -22.5%;
+    margin-left: 45.6%;
+}
+
+.cadastro-senha .senha input {
+    width: 250%;
+    padding: 5% 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ff545493;
+}
+
+.cadastro-senha .senha label {
+    font-family: 'Monda-Regular';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 0;
+    color: #ff545493;
+    pointer-events: none;
+}
+
+.cadastro-senha .senha input:focus~label,
+.cadastro-senha .senha input:valid~label {
+    color: transparent;
+}
+
+/* ----- BOTÃO ----- */
+.botao {
+    font-family: "Jost", "Times", ;
+    color: #fff;
+    background: linear-gradient(164.22deg, #F05348 0%, #AE1005 88.98%);
+    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: -13%;
+    margin-left: 65%;
+    width: 12%;
+    height: 6%;
+    position: absolute;
+    font-size: 15px;
+}
+
+.botao:hover {
+    background: linear-gradient(164.22deg, #AE1005 0%, #F05348 8888.98%);
+    cursor: pointer;
+}
+
+/*----- LOGO HEALTH TRACK -----*/
+.logo {
+    margin-top: -65%;
+    margin-left: 6.5%;
+    position: absolute;
+}
+
+.titulo-cadastre-se {
+    font-family: 'jostregularss';
+    color: white;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 3%;
+    letter-spacing: 4px;
+    font-size: 27px;
+}
+
+.titulo-cadastre-se span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#msgErro {
+    text-align: center;
+    color: #FF0000;
+    background-color: #FFBBBB;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: -70px;
+    margin-bottom: 42px;
+    display: none;
+}
+
+#msgSuccess {
+    text-align: center;
+    color: #00BB00;
+    background-color: #BBFFBE;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: -70px;
+    margin-bottom: 42px;
+    display: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}

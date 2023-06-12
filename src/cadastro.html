@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-styles.css" media="all">
+    <link rel="stylesheet" href="cadasstro-styles-menor.css">
+    <link rel="shortcut icon" href="../docs/img/healthtrack.ico" type="image/x-icon">
+    <title>Cadastro HealthTrack</title>
+</head>
+ 
+<!-- AUTOR -->  
+  <meta name="author" content="Caique Magalhães">
+    
+    <!-- RESPONSIVIDADE MENOR-->
+<body>
+        <!-- LAYOUT/GRADIENTE -->
+        <div class="layout">
+            <div class="gradiente"></div>
+             
+            <div class="titulo-cadastre-se">
+                <h1><span>Cad</span>astre-se</h1>
+            </div>
+
+            <!--NOME-->        
+    
+                <div class="cadastro-nome">
+                    <div class="titulo-nome">
+                        <div id="msgErro"></div>
+                        <div id="msgSuccess"></div>
+                             <h3 id="tit-nome">Nome Completo</h3>
+                    </div>
+                        <form class="nome">
+                            <input id="cadastroNome" type="text" nome="" required>
+                            <label id="labelCadastroNome">Nome Completo</label>
+                        </form>
+                </div> 
+                
+                <!-- USUARIO -->
+                <div class="cadastro-usuario">
+                    <div class="titulo-usuario">
+                             <h3 id="tit-usuario">Usuario</h3>
+                    </div>
+                        <form class="usuario">
+                            <input id="cadastroUsuario" type="text" required>
+                            <label id="labelCadastroUsuario">Digite seu usuario</label>
+                        </form>
+                </div> 
+                
+                <!-- DATA -->
+                <div class="cadastro-data">
+                    <div class="titulo-data">
+                             <h3 id="tit-data">Data de Nascimento</h3>
+                    </div>
+                        <form class="data">
+                            <input id="cadastroData" type="text" nome="" required>
+                            <label id="LabelCadastroData">Digite sua data</label>
+                        </form>
+                </div> 
+
+                <!-- SENHA -->
+                <div class="cadastro-senha">
+                    <div class="titulo-senha">
+                             <h3 id="tit-senha">Senha</h3>
+                    </div>
+                        <form class="senha">
+                            <input id="cadastroSenha"type="password" nome="" required>
+                            <label id="LabelCadastroSenha">Digite sua senha</label>
+    
+                        </form>
+                    </div> 
+
+                 <!-- BOTÃO CONCLUIR -->   
+                    <div>
+                        <button id="btn-cadastro" class="botao" onclick="cadastrar()">Concluir</button>
+                    </div>
+                
+                <!-- LOGO -->
+                <div>
+                    <img class="logo" src="../docs/img/logo-para-login-e-cadastro.png">
+                </div>    
+        </div>  
+        <script src="CadastroScript.js"></script>  
+    </body>    
+</html>

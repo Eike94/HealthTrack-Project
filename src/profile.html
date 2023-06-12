@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="../docs/img/healthtrack.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./profilestyle.css">
+        <title>Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- AUTOR -->  
+        <meta name="author" content="Caique Magalhães">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="DivBotoes">
+                <ul>
+                    <li><button class="home"><a href="./homepage.html">Home</a></button></li>
+                    <li><button class="academy"><a href="./academy.html">Academy</a></button></li>
+                    <li><button class="todo"><a href="./todo.html">To-do</a></button></li>
+                    <li><button class="profile"><a href="./profile.html">Perfil</a></button></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="fundo">
+            <div class="q1">
+                <div class="hex">
+                    <img src="../docs/img/fotoprofile.png" alt="">
+                </div>
+                <div class="nome">
+                    <h4>Thiago Oliveira</h4>
+                </div>
+                
+                
+                <div>
+                    <div class="inf">
+                        <label>Idade:</label>
+                        <input type="text" name="" required>
+                    </div>
+                    <div class="inf">
+                        <label>Peso:</label>
+                        <input type="text" name="" required>
+                    </div>
+                    <div class="inf">
+                        <label>Altura:</label>
+                        <input type="text" name="" required>
+                    </div>
+                    <div class="check">
+                        <legend>Objetivo:</legend>
+                        <input type="radio" name="marq" id="perderpeso"> <label for="perderpeso">Perder Peso</label>
+                        <input type="radio" name="marq" id="muscu"> <label for="muscu">Musculação</label>
+                        <input type="radio" name="marq" id="manter"> <label for="manter">Manter Peso</label>
+                    
+                    </div>
+                    <div class="log">
+                        <button onclick="sair()">Log off</button>
+                        </div>
+                </div>
+                
+            </div>
+
+           <!-- Calculo Taxa Metabólica Basal-->
+            <div class="q2"> 
+                <div>
+                    <h5>Taxa metabólica basal</h5>
+                </div>
+    
+                <div class="taxa-m"> 
+                    <div class="textfild">  
+                        <input type="text" id="altura" required placeholder="Altura:"> 
+                    </div>
+                    <div class="textfild"> 
+                        <input type="text" id="peso" required placeholder="Peso:">
+                    </div>
+                    <div class="textfild">    
+                        <input type="text" id="idade" required placeholder="Idade:">   
+                    </div> 
+                </div>
+                    <div>
+                        <button class="tmb" onclick="calcularTMB()">Calcular</button>
+                    </div>
+                <div class="taxa-m"> 
+                    <div class="resultado">  
+                        <label id="resultado-label">Resultado:</label> 
+                    </div> 
+             </div>
+            
+             
+             <!--CALCULO IMC -->
+             <div class="imc">
+                <div>
+                    <h5>IMC</h5>
+                </div>
+                <div class="taxa-imc">
+                    <div class="textimc">
+                        <input type="text" id="altura-imc" required placeholder="Altura:">
+                    </div>
+                    <div class="textimc">
+                        <input type="text" id="peso-imc" required placeholder="Peso:">
+                    </div>
+                </div>
+                <div>
+                    <button class="btnimc" onclick="calcularIMC()">Calcular</button>
+                </div>
+            </div>
+            <div class="taxa-imc"> 
+                <div class="resultado-imc">  
+                    <label id="resultado-imc-label">Resultado:</label> 
+                </div>  
+            </div>
+            <div>
+                <div class="estado">
+                    <label id="estado-label">Estado:</label>
+                </div>
+            </div>
+    
+            <div class="tabela">
+                <div class="tabela1">
+                    <p><span>IMC </span><br> MENOR QUE 18,5 <br> ENTRE 18,5 E 24,9 <br> ENTRE 25,0 E 29,9 <br> ENTRE 30,0 E 39,9 <br> MAIOR QUE 40,0</p>
+                </div>
+                <div class="tabela1">
+                    <p><span>Classificação</span> <br> Magreza <br> Normal <br> Sobrepeso <br> Obeso <br> Obeso Grave</p>
+                </div>
+                <div class="tabela1">
+                    <p> <span>Grau</span> <br> 0 <br> 0 <br> I <br> II <br> III</p>
+                </div>
+            </div> 
+         </div>
+    
+            </div>
+    
+    
+        </div>
+
+    
+        <script src="./profileScript.js"></script>
+    </body>
+</html>

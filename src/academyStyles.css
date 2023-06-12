@@ -1,0 +1,925 @@
+@media screen and (min-width: 1900px) {
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: 100px;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 600px;
+        height: 625px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 100px;
+        background: white;
+        width: 600px;
+        height: 625px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 1900px){
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: 100px;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 600px;
+        height: 625px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 100px;
+        background: white;
+        width: 600px;
+        height: 625px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: block;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: -10px;
+        margin-left: 25%;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 600px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 0px;
+        margin-left: 25%;
+        background: white;
+        width: 600px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 992px){
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: block;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: -10px;
+        margin-left: 15%;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 600px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 0px;
+        margin-left: 15%;
+        background: white;
+        width: 600px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 844px){
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: block;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: -10px;
+        margin-left: 10%;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 325px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 0px;
+        margin-left: 10%;
+        background: white;
+        width: 325px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*-----------Correção da margem da NavBar----------*/
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        margin-top: -16px;
+        background: rgba(69, 4, 0, 1);
+    }
+
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+
+    .DivBotoes ul li a {
+        text-decoration: none;
+    }
+
+    /*-----------Estilização dos botões da NavBar----------*/
+
+    .home {
+        padding: 10px;
+        font-family: Monda-Regular, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .academy {
+        padding: 10px;
+        font-family: Monda-Regular, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .todo {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .profile {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(240, 83, 72, 1);
+        border-color: rgba(240, 83, 72, 1);
+        border-radius: 5px;
+        color: white;
+    }
+
+    /*-----------Estilização do corpo da Pagina----------*/
+
+    main {
+        display: block;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    /*-----------Aba de Exercicios----------*/
+    .Exercicios {
+        margin-top: -10px;
+        margin-left: 5%;
+        background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+        width: 325px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Exercicios ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+    .Exercicios h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /*-----------Aba de Dietas----------*/
+    .Dietas {
+        margin-top: 10px;
+        margin-left: 5%;
+        background: white;
+        width: 325px;
+        height: 625px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .Dietas h1 {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+    .Dietas ul li {
+        display: inline;
+        margin: 5px 5px 0px 0px;
+        list-style-type: none;
+    }
+
+
+    /*-----------Correção dos estilos dos links da pagina----------*/
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+}
